@@ -8,22 +8,24 @@
   
   body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #fffdef; /* Colore di sfondo */
-    color: #333; /* Colore del testo */
+    background-color: white; 
+    color: #333; 
     display: flex;
-    justify-content: center; /* Centra orizzontalmente */
-    align-items: center; /* Centra verticalmente */
-    min-height: 100vh; /* Altezza minima per centrare verticalmente */
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100px; 
   }
 
-  
+  .banner-box {
+    background-color: antiquewhite;
+  }
   
   /* Contenitore principale */
   .container {
-    max-width: 800px; /* Larghezza massima */
-    background-color: #fffdef; /* Colore di sfondo del contenitore */
-    padding: 20px; /* Padding interno */
-    border-radius: 0px; /* Angoli arrotondati */
+    max-width: 800px; 
+    background-color: white; /* Colore di sfondo del contenitore */
+    padding: 20px; 
+    
     
   }
   figcaption {
@@ -31,29 +33,29 @@
     color: #999999;
   }
   
-  /* Stile dell'intestazione */
+  
   header {
-    text-align: center; /* Allinea il testo al centro */
-    margin-bottom: 20px; /* Margine inferiore */
+    text-align: center; 
+    margin-bottom: 20px; 
   }
   
   .banner-box, .banner {
-    font-weight: bold; /* Grassetto */
-    margin: 10px 0; /* Margine verticale */
+    font-weight: bold; 
+    margin: 10px 0; 
   }
   
-  /* Stile per il titolo della ricetta */
+  
   .recipe h2 {
-    margin: 20px 0; /* Margine verticale */
+    margin: 20px 0; /
   }
   
   /* Immagine della focaccia */
   .focaccia {
     box-shadow:4px 4px 4px #7a7a7a;
     border-radius: 10px;
-    max-width: 100%; /* Larghezza massima per mantenere le proporzioni */
-    height: auto; /* Altezza automatica */
-    margin: 0 auto; /* Centra l'immagine */
+    max-width: 100%;
+    height: auto; 
+    margin: 0 auto; 
   }
   
   /* Stile per le liste */
@@ -63,13 +65,13 @@
   
   /* Stile per i link */
   a {
-    color: #007bff; /* Colore del link */
-    text-decoration: none; /* Rimuove la sottolineatura */
+    color: #007bff; 
+    text-decoration: none; 
   }
   
 
   /* Stile per il footer */
   .read-more {
-    text-align: center; /* Allinea al centro */
-    margin-top: 20px; /* Margine superiore */
+    text-align: center;
+    margin-top: 20px; 
   }
