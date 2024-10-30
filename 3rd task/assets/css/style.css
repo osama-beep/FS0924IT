@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fffdef; /* Colore di sfondo */
+    color: #333; /* Colore del testo */
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Altezza minima per centrare verticalmente */
+  }
+
+  
+  
+  /* Contenitore principale */
+  .container {
+    max-width: 800px; /* Larghezza massima */
+    background-color: #fffdef; /* Colore di sfondo del contenitore */
+    padding: 20px; /* Padding interno */
+    border-radius: 0px; /* Angoli arrotondati */
+    
+  }
+  
+  /* Stile dell'intestazione */
+  header {
+    text-align: center; /* Allinea il testo al centro */
+    margin-bottom: 20px; /* Margine inferiore */
+  }
+  
+  .banner-box, .banner {
+    font-weight: bold; /* Grassetto */
+    margin: 10px 0; /* Margine verticale */
+  }
+  
+  /* Stile per il titolo della ricetta */
+  .recipe h2 {
+    margin: 20px 0; /* Margine verticale */
+  }
+  
+  /* Immagine della focaccia */
+  .focaccia {
+    max-width: 100%; /* Larghezza massima per mantenere le proporzioni */
+    height: auto; /* Altezza automatica */
+    display: block; /* Rimuove lo spazio sotto l'immagine */
+    margin: 0 auto; /* Centra l'immagine */
+  }
+  
+  /* Stile per le liste */
+  ul {
+    list-style-type: none; /* Rimuove i punti elenco */
+    padding: 0; /* Rimuove il padding */
+  }
+  
+  /* Stile per i link */
+  a {
+    color: #007bff; /* Colore del link */
+    text-decoration: none; /* Rimuove la sottolineatura */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Sottolinea al passaggio del mouse */
+  }
+  
+  /* Stile per il footer */
+  .read-more {
+    text-align: center; /* Allinea al centro */
+    margin-top: 20px; /* Margine superiore */
+  }
