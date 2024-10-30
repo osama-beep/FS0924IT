@@ -11,10 +11,14 @@ body {
   .logo{
     width: 280px;
   }
+hr{
+    border-color: #FFE9B1;
+    outline-color: #FFE9B1;
 
+}
   .banner-box {
     height: 50px;
-    background-color: antiquewhite;
+    background-color: #FDFBF1;
   }
   
   /* Contenitore principale */
@@ -34,6 +38,11 @@ body {
   header {
     text-align: center; 
     margin-bottom: 20px; 
+  }
+
+  .linea {
+    border-color: #cbfaf8;
+    outline-color: #cbfaf8;
   }
   
   .banner-box, .banner {
@@ -66,9 +75,12 @@ body {
     text-decoration: none; 
   }
   
+  .lista-lunga{
+    list-style: none;
+  }
 
   /* Stile per il footer */
   .read-more {
-    text-align: center;
+    text-align: left;
     margin-top: 20px; 
   }
