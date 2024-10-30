@@ -69,11 +69,15 @@ hr{
   ul {
     padding: 5;
   }
+
+  .featured-p{
+    height: 2px;
+  }
   
   
   a {
-    color: #007bff; 
-    text-decoration: none; 
+    color: #7CB2B2; 
+    
   }
   
   .lista-lunga{
