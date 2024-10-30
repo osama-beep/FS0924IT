@@ -63,10 +63,7 @@
     text-decoration: none; /* Rimuove la sottolineatura */
   }
   
-  a:hover {
-    text-decoration: underline; /* Sottolinea al passaggio del mouse */
-  }
-  
+
   /* Stile per il footer */
   .read-more {
     text-align: center; /* Allinea al centro */
