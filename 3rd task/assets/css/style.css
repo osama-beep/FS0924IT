@@ -53,9 +53,13 @@ hr{
   
   
   .recipe h2 {
-    margin: 20px 0; /
+    margin: 20px 0;
+    
   }
   
+  .recipe {
+    text-align: center;
+  }
   
   .focaccia {
     box-shadow:4px 4px 4px #7a7a7a;
