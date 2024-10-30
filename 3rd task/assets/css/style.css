@@ -26,6 +26,10 @@
     border-radius: 0px; /* Angoli arrotondati */
     
   }
+  figcaption {
+    text-align: center;
+    color: #999999;
+  }
   
   /* Stile dell'intestazione */
   header {
