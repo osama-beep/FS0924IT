@@ -1,0 +1,260 @@
+body {
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+
+  margin: 0px;
+}
+
+.header {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 150px;
+}
+.title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 60px;
+  color: #25a2c3;
+  margin-top: 70px;
+}
+
+.principale {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    url(/assets/img/banner.jpg);
+  text-align: center;
+  padding: 20px;
+
+  margin-bottom: 20px;
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+.hero-text {
+  margin: 10px 0;
+  font-size: 25.5px;
+  line-height: 50px; 
+  padding-bottom: 20px;
+  color: #000000d7;
+}
+
+.cta-button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff5733;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.cta-button:hover {
+  background-color: #fe4523;
+}
+
+.benefits {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.benefits h2 {
+  font-size: 30px;
+  color: #25a2c3;
+  margin-top: 8px;
+  padding-top: 20px;
+}
+
+.benefits p {
+  line-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.notebook {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin-top: 100px;
+
+  background-color: #e22d0e;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 80px;
+}
+
+.garantisce {
+  font-size: 35px;
+}
+.quote {
+  font-size: 16px;
+  font-style: italic;
+  margin: 15px 0;
+}
+
+.author {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.ceo {
+  font-size: 10px;
+}
+
+.divfoto1 {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  border-radius: 5px;
+  box-shadow: #333;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.foto1 {
+  width: 100%;
+}
+
+.paragrafo1 {
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.divfoto2 {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  border-radius: 5px;
+  box-shadow: #333;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.foto2 {
+  width: 100%;
+}
+
+.paragrafo2 {
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.divfoto3 {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 80px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  border-radius: 5px;
+  box-shadow: #333;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.foto3 {
+  width: 100%;
+}
+
+.paragrafo3 {
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.requirements h3 {
+  font-size: 30px;
+  color: #22aacc;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.requirements p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  background-color: #34aac9;
+  padding: 15px;
+}
+
+.contact h3 {
+  font-size: 20px;
+  color: #ffffff;
+
+}
+
+
+
+
+.paragrafo4, 
+.paragrafo5, 
+.paragrafo6 {
+  color:  #ffffffe7;
+  margin: 5px;
+}
+
+
+
+hr {
+  border: 0;
+    height: 2px;
+    background-color: white;
+    width: 50%; 
+    margin: 20px auto; 
+    opacity: 0.8; 
+}
+
+span {
+  margin-right: 5px;
+}
+
+.email {
+  color: inherit;
+  color: #ffffffe7;
+}
+
+.telefono {
+  color: inherit;
+  color: #ffffffe7;
+}
+
+.copyright {
+  color: inherit;
+  color: #ffffffe7;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.pixabay {
+  color: inherit;
+}
