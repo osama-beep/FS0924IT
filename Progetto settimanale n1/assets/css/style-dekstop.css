@@ -100,12 +100,6 @@ body {
   line-height: 1.5;
 }
 
-.benefits-container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .container {
   background-color: #e22d0e;
   color: #fff;
@@ -133,7 +127,6 @@ body {
 .ceo {
   font-size: 10px;
   margin-top: 0;
-  
 }
 
 .requirements {
