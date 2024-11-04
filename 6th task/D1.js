@@ -26,37 +26,37 @@ Undefined = serve per una variabile che non è stata ancora definita
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-let myName = ("Osama");
+let myName = "osama";
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-let somma = (12 + 20)
-console.log(somma)
+let somma = 12 + 20;
+console.log(somma);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-let x = (12)
+let x = 12;
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-myName = "Il tuo cognome"
-const nomeCostante = "questo valore non può cambiare"
+myName = "Il tuo cognome";
+
+const nomeCostante = "questo valore non può cambiare";
+// const nomeCostante =  "questo valora restituirà un errore" //
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-let sottrazione =  (4 - x)
-console.log (sottrazione)
-
-
+let sottrazione = 4 - x;
+console.log(sottrazione);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -64,11 +64,7 @@ console.log (sottrazione)
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-var name1  = ("john")
-var name2   = ("John")
-console.log (name1 == name2)
-console.log  (name1.toLowerCase() == name2.toLowerCase())
-
-
-
-
+var name1 = "john";
+var name2 = "John";
+console.log(name1 == name2);
+console.log(name1.toLowerCase() == name2.toLowerCase());
