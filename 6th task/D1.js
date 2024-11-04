@@ -79,5 +79,5 @@ console.log(sottrazione);
 
 var name1 = "john";
 var name2 = "John";
-console.log(name1 == name2);
+console.log(name1 === name2);
 console.log(name1.toLowerCase() === name2.toLowerCase());
