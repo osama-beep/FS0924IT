@@ -50,6 +50,7 @@ myName = "Il tuo cognome";
 
 const nomeCostante = "questo valore non può cambiare";
 // const nomeCostante =  "questo valora restituirà un errore" //
+try { myName = "osama";  } catch (error) { console.error("Errore durante la riassegnazione di myName:", error.message); }
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
