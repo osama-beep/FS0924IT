@@ -22,6 +22,13 @@ Undefined = serve per una variabile che non è stata ancora definita
 
 */
 
+let nome = ("messi");
+let età = (37);
+let èFamoso = (true);
+let valore = (null);
+let squadra;
+
+
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
