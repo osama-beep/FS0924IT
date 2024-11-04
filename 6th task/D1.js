@@ -27,7 +27,12 @@ let età = (37);
 let èFamoso = (true);
 let valore = (null);
 let squadra;
-
+console.log (nome + " " + età + " " + èFamoso + " " + valore + " " + squadra )
+console.log (nome)
+console.log (età)
+console.log (èFamoso)
+console.log (valore)
+console.log (squadra)
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
