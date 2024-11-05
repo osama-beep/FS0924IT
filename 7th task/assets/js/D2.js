@@ -192,13 +192,14 @@ me.skills = ['javascript', 'html']
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
+let numList = [];
+numList = [1,2,3,4,5,6,7,8,9,10];
 
-const numbers = Array.from({length: 10}, (_, index) => index + 1);
-console.log(numbers); 
+console.log (numList)
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
+numList[9] = 100;
 
-numbers[numbers.length - 1] = 100
-console.log (numbers)
+console.log (numList)
