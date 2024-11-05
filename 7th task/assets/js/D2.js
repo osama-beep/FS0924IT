@@ -54,7 +54,19 @@ if (numero5 === 8 || numero6 === 8 || numero5 + numero6 === 8 || numero5 - numer
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let totalShoppingCart = 67
+
+const shippingCost = 10
+
+let totalToPay;
+
+if (totalShoppingCart > 50) {
+  totalToPay = totalShoppingCart;
+
+} else {
+  totalToPay = totalShoppingCart + shippingCost;
+}
+console.log ("Totale da pagare", totalToPay);
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
