@@ -2,7 +2,7 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-let numero1 = 83;
+let numero1 = 80;
 let numero2 = 30;
 
 
