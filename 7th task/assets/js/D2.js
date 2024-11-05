@@ -73,7 +73,21 @@ console.log ("Totale da pagare", totalToPay);
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const discountPercentage = 20;
+
+let discountAmount  = totalShoppingCart *(discountPercentage / 100);
+
+let discountedTotal = totalShoppingCart - discountAmount;
+
+totalToPay;
+if (discountedTotal > 50) {
+  totalToPay = discountedTotal;
+} else {
+  totalToPay = discountedTotal + shippingCost;
+}
+
+console.log("Totale da pagare:", totalToPay)
+
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
