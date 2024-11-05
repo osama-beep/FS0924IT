@@ -8,8 +8,10 @@ let numero2 = 30;
 
 if (numero1 > numero2) {
   console.log(numero1 + " è il numero maggiore.");
-} else {
+} else if (numero1 < numero2) {
   console.log(numero2 + " è il numero maggiore.");
+} else {
+  console.log("i due numeri sono uguali")
 }
 
 /* ESERCIZIO 2
