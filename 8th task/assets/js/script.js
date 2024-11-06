@@ -216,16 +216,28 @@ console.log("Lunghezza dopo:", charactersNames.length);
 const randomIndex = Math.floor(Math.random() * starWarsCharacters.length);
 const randomCharacter = starWarsCharacters[randomIndex];
 
-console.log(`Oggi vi parlerò di ${randomCharacter.name}.`);
+console.log(`Today we will talk about ${randomCharacter.name}.`);
 console.log(
-  `${randomCharacter.name} è un personaggio che ha ${randomCharacter.height} cm di altezza e pesa circa ${randomCharacter.mass} kg.`
+  `${randomCharacter.name} is a character who is ${randomCharacter.height} cm tall and weighs approximately ${randomCharacter.mass} kg.`
 );
 console.log(
-  `Il suo colore degli occhi è ${randomCharacter.eye_color}, mentre la sua pelle è di colore ${randomCharacter.skin_color}.`
+  `Their eye color is ${randomCharacter.eye_color}, while their skin color is ${randomCharacter.skin_color}.`
 );
 console.log(
-  `È nato nell'anno ${randomCharacter.birth_year}, il che lo rende un personaggio importante nella storia di Star Wars.`
+  `They were born in the year ${randomCharacter.birth_year}, which makes them an important character in the Star Wars story.`
 );
 console.log(
-  `Infine, ${randomCharacter.name} è di sesso ${randomCharacter.gender}.`
+  `Finally, ${randomCharacter.name}'s gender is ${randomCharacter.gender}.`
 );
+
+
+console.log ('-------Aggiunta mia---------')
+
+for (let i = 0; i < starWarsCharacters.length; i++) {
+  if (starWarsCharacters[i].hair_color === "n/a") {
+    starWarsCharacters[i].hair_color = "undecodable";
+  }
+}
+
+console.log (starWarsCharacters)
+
