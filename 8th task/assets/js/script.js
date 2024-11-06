@@ -201,6 +201,35 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
   
   console.log(starWarsCharacters);
 
+// ESERCIZIO 9
+
+console.log("Lunghezza prima:", charactersNames.length);
+
+for (let i = 0; i < femaleCharacters.length; i++) {
+  const femaleName = femaleCharacters[i].name;
+  
+  
+  const index = charactersNames.indexOf(femaleName);
+  
+ 
+  if (index !== -1) {
+    charactersNames.splice(index, 1);
+  }
+}
+
+
+console.log("Lunghezza dopo:", charactersNames.length);
+
+//  ESERCIZIO 10
+
+const randomIndex = Math.floor(Math.random() * starWarsCharacters.length);
+const randomCharacter = starWarsCharacters[randomIndex];
+
+console.log(`Oggi vi parlerò di ${randomCharacter.name}.`);
+console.log(`${randomCharacter.name} è un personaggio che ha ${randomCharacter.height} cm di altezza e pesa circa ${randomCharacter.mass} kg.`);
+console.log(`Il suo colore degli occhi è ${randomCharacter.eye_color}, mentre la sua pelle è di colore ${randomCharacter.skin_color}.`);
+console.log(`È nato nell'anno ${randomCharacter.birth_year}, il che lo rende un personaggio importante nella storia di Star Wars.`);
+console.log(`Infine, ${randomCharacter.name} è di sesso ${randomCharacter.gender}.`);
 
   
   
