@@ -212,11 +212,10 @@
        La tabella avrà 5 elementi e questa struttura: immagine, nome prodotto, quantità, prezzo
     */
 
-      const generateTable = function () {
 
+    const generateTable = function () {}
+  
 
-
-      };
 
       /* ESERCIZIO 12
        Crea una funzione che aggiunga una riga alla tabella precedentemente creata e fornisca i dati necessari come parametri
@@ -224,8 +223,7 @@
 
       const addRow = function () {
 
-
-
+        
       };
 
       /* ESERCIZIO 14
@@ -233,10 +231,14 @@
     */
 
       const hideAllImages = function () {
+const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.style.display = 'none';
+        });
 
-        
 
       };
+      hideAllImages();
 
       /* EXTRA ESERCIZIO 15
       Crea una funzione che cambi il colore del h2 con id "changeMyColor" con un colore random ad ogni click ricevuto
