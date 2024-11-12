@@ -85,9 +85,8 @@
     */
 
       const changeTitle = function () {
-        document.title = "Nuovo Titolo della Pagina";
-        const h1 = document.querySelector("h1");
-        if (h1) h1.textContent = "Nuovo Titolo della Pagina";
+        const title = document.querySelector("h1");
+        title.innerText = "Fatto da DOM Manipulation";
       };
       changeTitle();
 
@@ -213,7 +212,51 @@
     */
 
 
-    const generateTable = function () {}
+    const generateTable = function () {
+    const tableArea = document.getElementById("tableArea");
+
+    const table = document.createElement("table");
+    table.border = 1;
+
+    const headerRow = document.createElement("tr");
+
+    const headers = ["Immagine", "Nome Prodotto", "Quantità", "Prezzo"];
+    headers.forEach(headerText => {
+        const header = document.createElement("th");
+        header.textContent = headerText;
+        headerRow.appendChild(header);
+    });
+    table.appendChild(headerRow);
+
+    for (let i = 0; i < 5; i++) {
+        const row = document.createElement("tr");
+
+        const imgCell = document.createElement("td");
+        const img = document.createElement("img");
+        img.src = "https://google.com"; 
+        img.alt = "Immagine prodotto";
+        imgCell.appendChild(img);
+        row.appendChild(imgCell);
+
+        const nameCell = document.createElement("td");
+        nameCell.textContent = `Prodotto ${i + 1}`;
+        row.appendChild(nameCell);
+
+        const quantityCell = document.createElement("td");
+        quantityCell.textContent = `${Math.floor(Math.random() * 10) + 1}`; 
+        row.appendChild(quantityCell);
+
+        const priceCell = document.createElement("td");
+        priceCell.textContent = `€ ${(Math.random() * 100).toFixed(2)}`; 
+        row.appendChild(priceCell);
+
+        table.appendChild(row);
+    }
+
+    tableArea.appendChild(table);
+};
+
+generateTable();
   
 
 
@@ -221,11 +264,21 @@
        Crea una funzione che aggiunga una riga alla tabella precedentemente creata e fornisca i dati necessari come parametri
     */
 
-      const addRow = function () {
+    const addRow = function (imageSrc = "https://google.com", productName = "Prodotto nuovo con funzione") {
+    const table = document.querySelector("table");
+    if (!table) return;
 
-        
-      };
+    const row = table.insertRow();
+    [
+        `<img src="${imageSrc}" alt="Immagine prodotto">`,
+        productName,
+        Math.floor(Math.random() * 10) + 1,
+        `€ ${(Math.random() * 100).toFixed(2)}`
+    ].forEach(data => row.insertCell().innerHTML = data);
+};
 
+addRow();
+      
       /* ESERCIZIO 14
       Crea una funzione che nasconda le immagini della tabella quando eseguita
     */
