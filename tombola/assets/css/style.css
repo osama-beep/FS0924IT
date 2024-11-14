@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: quicksand,sans-serif, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom right, #12063b, #09555c);
+    color: #207f88;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #207f88;
+    text-align: center;
+    margin-bottom: 30px; 
+    text-shadow:0 0 20px 0 #000000;
+}
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    margin: 0 auto 20px;
+}
+
+.cell {
+    box-shadow: 0 0 20px 0 #12063b;
+    border: 1px solid #00000000;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700
+}
+
+.drawn {
+    background-color: #4a9ad3;
+}
+
+#drawNumber {
+    color: #207f88;
+    box-shadow: 0 0 20px 0 #12063b;
+    background-color: #094e5900;
+    border: 1px solid #00000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
