@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tombola</title>
+    <title>Tombola Epicode</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,12 +15,25 @@
 
   <body>
     <div class="container">
-      <h1>Tombola!</h1>
-      <div id="board">
-        <!-- Board cells will be added here by JavaScript -->
-      </div>
-      <button id="drawNumber">Draw Number</button>
+        <h1>Tombola!</h1>
+        <div id="setup">
+            <div class="dropdown-container">
+                <select id="numBoards">
+                    <option value="1">1 Tabellina</option>
+                    <option value="2">2 Tabelline</option>
+                    <option value="3">3 Tabelline</option>
+                </select>
+            </div>
+            <button id="startGame">Inizia Partita</button>
+        </div>
+
+        <div id="board"></div>
+        <button id="drawNumber" style="display: none;">Estrai Numero</button>
+        <div id="smallBoards"></div>
     </div>
+
+
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>

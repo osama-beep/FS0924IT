@@ -35,12 +35,17 @@ h1 {
 }
 
 .cell {
+    transition: transform .2s;
     box-shadow: 0 0 20px 0 #12063b;
     border: 1px solid #00000000;
     padding: 10px;
     text-align: center;
     cursor: pointer;
     font-weight: 700
+}
+
+.cell:hover {
+    transform: scale(1.05);
 }
 
 .drawn {
@@ -57,11 +62,99 @@ h1 {
     font-weight: 600;
     cursor: pointer;
     text-shadow: 0 0 10px rgba(32, 127, 136, 0.7);
+    transition: transform .2s;
 }
 
 #drawNumber:hover {
     text-shadow: 0 0 15px rgba(32, 127, 136, 0.9);
     box-shadow: 0 0 25px 0 #12063b;
+    transform: scale(1.1);
 }
 
+#setup {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dropdown-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+#numBoards {
+    background-color: rgba(9, 78, 89, 0.1);
+    color: #207f88;
+    border: 1px solid rgba(32, 127, 136, 0.5);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+}
+
+#numBoards:hover {
+    background-color: rgba(9, 78, 89, 0.2);
+    border-color: rgba(32, 127, 136, 0.7);
+}
+
+#numBoards:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(32, 127, 136, 0.3);
+    background-color: rgba(9, 78, 89, 0.15);
+}
+
+#numBoards option {
+    background-color: rgba(250, 248, 255, 0);
+    color: #207f88;
+}
+
+#startGame {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgba(9, 78, 89, 0.2);
+    color: #207f88;
+    border: 1px solid #207f88;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#startGame:hover {
+    background-color: rgba(9, 78, 89, 0.4);
+}
+
+#startGame:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(32, 127, 136, 0.5);
+}
+
+#smallBoards {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.small-board {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+}
+
+.small-cell {
+    display: inline-block;
+    box-shadow: 0 0 10px 0 #12063b;
+    border: 1px solid #00000000;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    width: calc(16.66% - 4px);
+    margin: 2px;
+}
+
+.small-cell.drawn {
+    background-color: #4a9ad3;
+}
 
